@@ -8,7 +8,7 @@ public class TestJuego {
 		Juego juego = Juego.getInstance();
 		juego.setJug1(jug1);
 		juego.setJug2(jug2);
-		juego.setRondas(1);
+		juego.setRondas(5);
 		juego.jugar();
 
 	}
